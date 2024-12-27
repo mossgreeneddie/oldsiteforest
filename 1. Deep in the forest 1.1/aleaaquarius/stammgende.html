@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Alea Aquarius Fanshrine</title>
+  <link rel="stylesheet" href="aa.css">
+  <link rel="icon" type="image/x-icon" href="https://file.garden/ZXYYlmMYuz15fq8m/other/schtars.gif">
+</head>
+
+<script>
+
+/* Hello everyone! If you're wondering how I made this small function, I simply made two arrays. One of the arrays contained a list of alphabetas, while the other contained a list of names. Then, I wrote a function to choose one random alphabeta and one random name and then put them together. I hope you enjoy using the Random Name Generator! */
+
+var stamm = [
+    'Walwanderer, die Beschützer der Wale,',
+    'Oblivionen, die Geheimhalter und Beschützer der Meerwelt,',
+    'Darkoner, die Krieger der Meerwelt,',
+    'Schai, die Künstler der Meerwelt,',
+    'Roix, die Heiler und Ärzte der Meerwelt,',
+    'Marmullas, die Lehrer der Meerwelt,',
+    'Kendarer, die Geschichtenerzähler der Meerwelt,',
+    'Zalti, die Bauern der Meerwelt,',
+    'Quinks, die Handwerker der Meerwelt,',
+    'Lorka, die Händler der Meerwelt,',
+    'Brim, die Müllverbrenner,',
+    'Utamaren, die Anführer der Meerwelt,',
+    'Topster, die Spaßmacher der Meerwelt,',
+    'Anschu, die Wasserbefehligung,',
+    'Valerianer, die Psychologen der Meerwelt,',
+    'Hoa, die Köche der Meerwelt,',
+    'Vennuit, die Eispfleger,',
+    'Omarion (unbekannte Aufgabe)',
+    'Adetari, die Helfer für Familien auf Trosk,',
+    'Sentross, die ehmaligen Geldverwalter der Meerwelt,',
+    'Havanians, die ehmaligen Helfer der Armen der Meerwelt,',
+    'Ilmo, die Goldschmiede der Meerwelt,',
+    'Yonai, die Wissenschaftler der Meerwelt,',
+    'Uair, die Spione der Meerwelt,',
+    'Meermenschen zur Organisation der Bürokraie in der Meerwelt,',
+    'Abyrionen, Meermenschen der Tiefsee,',
+    'Meermenschen zum Schutz der Korallenriffe der Meerwelt,',
+    'Kentas, die Journalisten der Meerwelt,'
+] 
+var list;
+
+function generator() {
+ document.getElementById("name").innerHTML = "Dein Stamm könnten die " + stamm[Math.floor(Math.random() * stamm.length)] + " sein!";;;
+}
+	
+</script>
+
+<body>
+
+	<div>
+		<h1>Stamm Generator</h1>
+		<div>
+		  <h4>Click auf den Knopf um einen Stamm zu generieren.</h4>
+          <h5>Achtung! Enthält selbst erstellte/ von Freunden erstellte Stämme.</h5>
+		  <p><a href="https://docs.google.com/spreadsheets/d/1PoadlmrqTtcczcHmVGF_xAEpzHu9JnhV8BywqhmwLOA/edit#gid=0" target="_blank">Oder suche dir einen eigen aus.</a></p>
+		</div>
+		<div onclick="generator()" class="genbutton">Generieren</div>
+		<h4 class="genspace" id="name">Dein Stamm könnten die ... sein!</h4>
+	
+	</div>
+        
+	<p>Habe den javascript code von <a href="https://codepen.io/susier2016/pen/BKKywy">hier</a>.</p>
+    
+</body>
+</html>

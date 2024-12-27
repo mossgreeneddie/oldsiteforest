@@ -1,0 +1,71 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff;
+    color: #2b3037;
+    background-image: url("https://file.garden/ZXYYlmMYuz15fq8m/other/rainbg1.gif");
+    font-size: auto;
+    background-size: 100px;
+}
+
+.main {
+    width: 76%;
+    float:inline-start;
+    background: #fff;
+    border: 0.5vw double #2b3037;
+    padding: 1vw;
+    min-height: max-content;
+}
+
+.stories{
+    width: 97%;
+    float:inline-start;
+    background: #fff;
+    border: 0.5vw double #2b3037;
+    padding: 1vw;
+    min-height: max-content;
+}
+
+.sidenav{
+    width: 15%;
+    background: #fff;
+    border: 0.5vw double #2b3037;
+    padding: 1vw;
+    min-height: max-content;
+    position: fixed;
+    top: 8%;
+    right: 1%;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: #2b3037;
+    padding: 0.2vb;
+}
+
+
+
+h1{
+    color: #fff;
+    text-shadow: 0px 0px 8px #2b3037;
+}
+
+.ao3{
+    border: 0.5vw double #2b3037;
+    padding: 1%;
+}
+
+a.onpagelink{
+    text-decoration: underline !important;
+    color: #768dae;
+}
+
+a.onpagelink:hover{
+    color: #2b3037;
+}
+
+/*scrollbar*/
+*{
+    scrollbar-color: #2b3037 #ffffff ;
+    scrollbar-width: thin;
+}

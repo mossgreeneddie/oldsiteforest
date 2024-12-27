@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Alea Aquarius Fanshrine</title>
+  <link rel="stylesheet" href="aa.css">
+  <link rel="icon" type="image/x-icon" href="https://file.garden/ZXYYlmMYuz15fq8m/other/schtars.gif">
+</head>
+
+<script>
+
+/* Hello everyone! If you're wondering how I made this small function, I simply made two arrays. One of the arrays contained a list of alphabetas, while the other contained a list of names. Then, I wrote a function to choose one random alphabeta and one random name and then put them together. I hope you enjoy using the Random Name Generator! */
+
+var magisch = [
+    'Finde-Finja',
+    'Seesafir',
+    'Kras',
+    'Grahnqualle',
+    'Jarias',
+    'Warkan',
+    'Isibelle',
+    'Gilf',
+    'Kobold',
+    'Tasfar',
+    'Helms',
+    'Wribbels',
+    'Helms',
+    'Scropionfisch',
+    'Lafora',
+    'Nixe',
+    'Robbe',
+    'Pudelpfuhler',
+    'Lauscherschnecke',
+    'Wal',
+    'Delfin',
+    'Hai',
+    'Kobold',
+] 
+var list;
+
+function generator() {
+ document.getElementById("name").innerHTML = "Dein Magischer könnte ein/e " + magisch[Math.floor(Math.random() * magisch.length)] + " sein!";;;
+}
+	
+</script>
+
+<body>
+
+	<div>
+		<h1>Magischer Begleiter Generator</h1>
+		<div>
+		  <h4>Click auf den Knopf um einen magischen Begleiter zu generieren.</h4>
+		  <p><a href="https://docs.google.com/spreadsheets/d/1nlqJ5eQVaeMMtrKkfiy-kzzn9ZephSrByqONunaXiI4/edit#gid=0" target="_blank">Oder suche dir einen eigen aus.</a></p>
+		</div>
+		<div onclick="generator()" class="genbutton">Generieren</div>
+		<h4 class="genspace" id="name">Dein Magischer könnte ein/e ... sein!</h4>
+	
+	</div>
+        
+	<p>Habe den javascript code von <a href="https://codepen.io/susier2016/pen/BKKywy">hier</a>.</p>
+    
+</body>
+</html>

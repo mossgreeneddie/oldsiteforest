@@ -1,0 +1,85 @@
+/*scrollbar*/
+
+*{
+    scrollbar-color: #56aeed black;
+    scrollbar-width: thin;
+}
+
+/*scrollbar end*/
+
+@font-face {
+    font-family: hand;
+    src: url("https://file.garden/ZXYYlmMYuz15fq8m/fonts/PatrickHandSC-Regular.ttf");
+}
+
+
+html{
+    text-align: center;
+    align-items: center;
+    font-family: "hand", sans-serif;
+    background-size:cover;
+    color: #ffc988;
+    background-color: #000;
+    display:flexbox;
+    background-attachment: fixed;
+    background-image: url("https://images.unsplash.com/photo-1505506874110-6a7a69069a08?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+h4, h5, h7{
+    margin: 0%;
+}
+
+ul h7{
+    font-size: small;
+}
+
+.main{
+    border: 1px solid #ffc988;
+    background-color: #0000005a;
+    padding: 5px 10px;
+    margin: 1%;
+}
+
+.home{
+    font-size: larger;
+    padding: 1%;
+    margin: 1px;
+    border: 2px solid #56aeed;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: black;
+}
+
+.nav{
+    text-align: left;
+    background-color: #0000005a;
+    max-width: 15%;
+    padding: 1vw;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    overflow-y: scroll;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    color: #56aeed;
+}
+
+a:hover{
+    color: aliceblue;
+}
+
+ul{
+    list-style-image: url("https://pixelsea.neocities.org/icons/tiny-yellow-star.gif");
+}
+
+.all{
+    position: absolute;
+    right: 0%;
+    width: 80%;
+    margin-right: 2%;
+
+}

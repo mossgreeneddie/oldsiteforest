@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Alea Aquarius Fanshrine</title>
+    <link rel="stylesheet" href="aa.css">
+    <link rel="icon" type="image/x-icon" href="https://file.garden/ZXYYlmMYuz15fq8m/other/schtars.gif">
+</head>
+
+<script>
+
+/* Hello everyone! If you're wondering how I made this small function, I simply made two arrays. One of the arrays contained a list of alphabetas, while the other contained a list of names. Then, I wrote a function to choose one random alphabeta and one random name and then put them together. I hope you enjoy using the Random Name Generator! */
+
+var star = [
+	'Puppis (Achterdeck des Schiffs)',
+	'Aquila (Adler)',
+	'Ara (Altar)',
+	'Andromeda (Andromeda)',
+	'Bootes (Bärenhüter)',
+	'Crater (Becher)',
+	'Cepheus (Kepheus)',
+	'Carina (Kiel des Schiffs)',
+	'Hydrus (Kleine Wasserschlange)',
+	'Ursa Minor (Kleiner Bär)',
+	'Canis Minor (Kleiner Hund)',
+	'Leo Minor (Kleiner Löwe)',
+	'Grus (Kranich)',
+	'Cancer (Krebs)',
+	'Crux (Kreuz des Südens)',
+	'Lyra (Leier)',
+	'Leo (Löwe)',
+	'Lynx (Luchs)',
+	'Antlia (Luftpumpe)',
+	'Pictor (Maler)',
+	'Microscopium (Mikroskop)',
+	'Reticulum (Netz)',
+	'Corona Borealis (Nördliche Krone)',
+	'Octans (Oktant)',
+	'Orion (Orion)',
+	'Apus (Paradiesvogel)',
+	'Pegasus (Pegasus)',
+	'Horologium (Pendeluhr)',
+	'Perseus (Perseus)',
+	'Pavo (Pfau)',
+	'Sagitta (Pfeil)',
+	'Phönix (Phönix)',
+	'Corvus (Rabe)',
+	'Pyxis (Schiffskompass)',
+	'Scutum (Schild)',
+	'Serpens (Schlange)',
+	'Ophiuchus (Schlangenträger)',
+	'Sagittarius (Schütze)',
+	'Cygnus (Schwan)',
+	'Dorado (Schwertfisch)',
+	'Vela (Segel des Schiffs)',
+	'Sextans (Sextant)',
+	'Scorpius (Skorpion)',
+	'Capricornus (Steinbock)',
+	'Taurus (Stier)',
+	'Corona Australis (Südliche Krone)',
+	'Piscis Australis (Südlicher Fisch)',
+	'Triangulum Australe (Südliches Dreieck)',
+	'Mensa (Tafelberg)',
+	'Columba (Taube)',
+	'Telescopium (Teleskop)',
+	'Tucana (Tukan)',
+	'Libra (Waage)',
+	'Cetus (Walfisch)',
+	'Aquarius (Wassermann)',
+	'Hydra (Wasserschlange)',
+	'Aries (Widder)',
+	'Norma (Winkelmaß)',
+	'Lupus (Wolf)',
+	'Centaurus (Zentaur)',
+	'Circinus (Zirkel)',
+	'Gemini (Zwillinge)',
+] 
+var alphabeta = [
+	'Betacru',
+	'Alphacru',
+]
+var list;
+
+function generator() {
+ document.getElementById("name").innerHTML = "Dein "+ alphabeta[Math.floor(Math.random() * alphabeta.length)] + " Name könnte " + star[Math.floor(Math.random() * star.length)] + " sein!";;;
+}
+	
+</script>
+
+<body>
+
+	<div>
+		<h1>Cru Namen Generator</h1>
+		<div>
+		  <h4>Click auf den Knopf um einen Namen zu generieren.</h4>
+		  <p><a href="https://docs.google.com/spreadsheets/d/1W62TWrCo2MQrEv_TsU1Ma66w12MT0orzoVzuOxCQr6w/edit#gid=0" target="_blank">Oder suche dir einen eigen aus.</a></p>
+		</div>
+		<div onclick="generator()" class="genbutton">Generieren</div>
+		<h4 class="genspace" id="name">Dein ... Name könnte ... sein!</h4>
+	
+	</div>
+        
+	<p>Habe den javascript code von <a href="https://codepen.io/susier2016/pen/BKKywy">hier</a>.</p>
+    
+</body>
+</html>
