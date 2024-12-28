@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>rings</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/x-icon" href="https://file.garden/ZXYYlmMYuz15fq8m/other/schtars.gif">
+    <link href="https://fonts.cdnfonts.com/css/public-pixel" rel="stylesheet">
+</head>
+
+<style>
+
+    @font-face {
+        font-family: plant;
+        src: url("https://file.garden/ZXYYlmMYuz15fq8m/fonts/PatrickHandSC-Regular.ttf");
+    }
+
+:root{
+    --box:#8676a2;
+    --col1: #30072a;
+}
+
+*{
+    scrollbar-color: var(--col1) var(--box) ;
+    scrollbar-width: thin;
+}
+
+html{
+    background-size: 10%;
+    background-color: var(--box);
+    color: var(--col1);
+    background-image: url("https://sadhost.neocities.org/images/tiles/butterflies1.gif");
+    font-family:plant;
+}
+
+body{
+    font-family: egp;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a{
+    color: var(--col1);
+}
+
+h1,h2, textarea, p{
+    display: inline;
+    padding: 1%;
+    border-radius: 30px;
+    margin: 0.5%;
+    background-color: var(--box);
+    font-family: plant;
+    text-transform: uppercase;
+    max-width: 50vw;
+    font-size: 150%;
+    border: 4px double var(--col1);
+    
+}
+
+p{
+    text-transform: none;
+}
+
+textarea{
+    height: 100px;
+    width: 150px;
+    background-color: var(--box);
+    border: none;
+    color: var(--col1);
+    padding: 0.5%;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+img{
+    width: 100px;
+}
+
+.in{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+iframe{
+    display: inline;
+    padding: 1%;
+    border-radius: 30px;
+    margin: 0.5%;
+    background-color: var(--box);
+    font-family: plant;
+    text-transform: uppercase;
+    max-width: 50vw;
+    font-size: 150%;
+    border: 4px double var(--col1);
+}
+
+</style>
+
+<body>
+    <h1>Webrings</h1>
+    <h2>What are Webrings?</h2>
+    <p>The web is big but if you want to connect to people doing simmilar things to you, 
+        you join a webring concering that topic or a theme. Its a way to connect to people with their own websites :)</p>
+    <h2>My webrings</h2>
+    <iframe id="bucket-webring" style="width: 50%; height: 3rem; border: none; display: block; opacity: 75%;" src="https://webring.bucketfish.me/embed.html?name=mossgreeneddie"></iframe>
+    <p><a href="https://goblin-heart.net/sadgrl/webmastery/downloads/tiledbgs">Background</a> + <a href="https://fonts.google.com/specimen/Patrick+Hand+SC">Font</a></p>
+</body>
+</html>

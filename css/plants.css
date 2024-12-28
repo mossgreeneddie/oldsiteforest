@@ -1,0 +1,78 @@
+:root{
+    --box: #8a9a5b;
+    --light: #95ca67;
+    --dark: #283b26;
+}
+
+*{
+    scrollbar-color: var(--dark) var(--box);
+    scrollbar-width: thin;
+}
+
+@font-face {
+    font-family: plant;
+    src: url("https://file.garden/ZXYYlmMYuz15fq8m/fonts/Plante.ttf");
+}
+
+
+html, body{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1% 7%;
+    color: var(--dark);
+    background-attachment: fixed;
+    background-image: url("https://sadhost.neocities.org/images/tiles/tumblr_inline_mll0keW1Af1r53miq540.gif");
+    text-align: center;
+}
+
+.main{
+    background-color: var(--box);
+    height: fit-content;
+}
+
+.plant{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    font-style: italic;
+    font-weight: 100;
+}
+
+h1{
+    font-family: plant;
+}
+
+img{
+    width: 33%;
+    margin: auto;
+}
+
+img:hover{
+    animation: turn 5s ease-in infinite alternate;
+}
+@keyframes turn{
+    0% { transform: rotate(0);}
+    25% { transform: rotate(5deg);}
+    50% { transform: rotate(0);}
+    75% { transform: rotate(-5deg);}
+    100% { transform: rotate(0);}
+}
+
+div{
+    background-color: var(--box);
+    padding: 1%;
+}
+
+a{
+    color: var(--light);
+}
+
+.sticky{
+    background-color: var(--dark);
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+    font-family: plant;
+}
